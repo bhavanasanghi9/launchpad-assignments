@@ -7,7 +7,7 @@ for i in range (0,n):
 	ele=int(input("enter the elements of the list"))
 	num_list.append(ele)
 """printing out the given list in descending order"""
-num_list.sort(reverse=True)
+num_list.sort()
 
 """this input function will accept the value of n for nth lowest number"""
 nth_lowest=int(input("enter the value of n to find the nth lowest number"))
