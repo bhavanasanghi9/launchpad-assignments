@@ -1,10 +1,10 @@
 num_list=[]
 """let the number of elements of the list be n"""
 
-n=int(input("enter the number of elements in the list"))
+n=int(input("enter the number of elements in the list :"))
 """ele represents each element in the list that we are going to input"""
 for i in range (0,n):
-	ele=int(input("enter the elements of the list"))
+	ele=int(input("enter the elements of the list :"))
 	num_list.append(ele)
 """printing out the given list in descending order"""
 num_list.sort()
